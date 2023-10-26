@@ -1,0 +1,17 @@
+.checklist {
+    background-image: url('../images/unchecked.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    list-style-type: none;
+}
+.checked {
+    background-image: url('../images/checked.jpg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

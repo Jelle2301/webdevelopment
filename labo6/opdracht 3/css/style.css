@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+}
+header h1,h2 {
+    color: #EDF2F4;
+}
+header,footer,section {
+    padding: 30px;
+}
+a {
+    color: red;
+}
+header,footer {
+    color: #8D99AE;
+    background-color: #2B2D42;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section {
+    background-color: #8D99AE;
+}
