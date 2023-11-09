@@ -1,0 +1,33 @@
+body {
+    width: 95%;
+    margin: 3px auto;
+    font-family: Arial, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header.headerFoto {
+    background-image: url("../natureBlog/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding-bottom: 50px;
+}
+article h1{
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+article {
+    background-color: lightgray;
+    margin-top: 5px;
+}
+article header {
+    padding-top: 15px;
+}
+nav {
+    background-color: grey;
+}
+nav a {
+    color: lawngreen;
+    text-decoration: none;
+    font-weight: bold;
+}
