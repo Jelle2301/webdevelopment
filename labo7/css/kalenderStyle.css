@@ -29,14 +29,13 @@ td {
 td:first-child, td:last-child{
     background-color: rgb(255, 220, 220);
 }
-
+tr td.lastmonth {
+    background-color: grey;
+    color: lightgray;
+}
 #trDagen {
     background-color: rgb(35,37,70);
     color: rgb(200,190,240);
-}
-.grijs {
-    background-color: lightgray;
-    color: grey;
 }
 #zestien {
     background-color: rgb(250,120,120);
