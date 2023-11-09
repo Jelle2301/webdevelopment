@@ -31,8 +31,8 @@ td:first-child, td:last-child{
 }
 
 #trDagen {
-    background-color: #2B2D42;
-    color: #0070A8;
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
 }
 .grijs {
     background-color: lightgray;
