@@ -1,0 +1,17 @@
+section {
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.extra {
+    width:49%;
+    float:left;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:5px;
+}
