@@ -1,0 +1,102 @@
+body > header {
+    height: 200px;
+    background-image: url('../images/bgsky3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: darkblue;
+}
+body > header img {
+    float: left;
+    position: absolute;
+    right: 90px;
+    top: 100px;
+
+}
+body > header p {
+    font-size: 240%;
+}
+body > header p:first-child {
+    font-size: 300%;
+    font-weight: bold;
+}
+aside {
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    color: #666666;
+    font-size: 90%;
+    padding-right: 10px;
+    float:right;
+    display: inline-block;
+    box-sizing: border-box;
+}
+aside h3 {
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+main {
+    width: 75%;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.gallery {
+    background-color: #999999;
+    padding: 10px;
+
+}
+.foto {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+main header {
+    display: inline-block;
+    width: 10%;
+}
+.introduction {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 30px 20px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70%;
+}
+.introduction img {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.introduction span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+footer {
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    padding-right: 120px;
+    clear:both;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    background-color: red;
+}
+.copy {
+    clear: both;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
