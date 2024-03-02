@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/styleProducten.css" rel="stylesheet">
+    <title>Producten</title>
+</head>
+<body>
+    <h1>
+        Producten
+    </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Producten
+                </th>
+                <th>
+                    Prijs
+                </th>
+                <th>
+                    Aantal
+                </th>
+                <th>
+                    Btw
+                </th>
+                <th>
+                    Subtotaal
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Product1
+                </td>
+                <td class="price">
+                    10.00 Eur
+                </td>
+                <td>
+                    <input type="text" class="amount" value="0">
+                </td>
+                <td class="btw">
+                    6%
+                </td>
+                <td class="subtotal">
+                    0.00 Eur
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Product2
+                </td>
+                <td class="price">
+                    15.00 Eur
+                </td>
+                <td>
+                    <input type="text" class="amount" value="0">
+                </td>
+                <td class="btw">
+                    21%
+                </td>
+                <td class="subtotal">
+                    0.00 Eur
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Product3
+                </td>
+                <td class="price">
+                    20.00 Eur
+                </td>
+                <td>
+                    <input type="text" class="amount" value="0">
+                </td>
+                <td class="btw">
+                    21%
+                </td>
+                <td class="subtotal">
+                    0.00 Eur
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    Totaal
+                </td>
+                <td id="total">
+                    0.00 Eur
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <br />
+    <input type="button" id="button" value="Herberekenen">
+<script type="text/javascript" charset="utf-8" src="scripts/codeProducten.js">
+</script>
+</body>
+</html>
