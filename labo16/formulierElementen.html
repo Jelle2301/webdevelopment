@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Formulier elementen</h1>
+    <section>
+        <form>
+            <fieldset>
+                <label for="firstName">First name*:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Your first name" required/><br /><br />
+                <label for="lastName">Last name*:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Your last name" required/>
+                <p>Which sport do you train?</p>
+                <label for="running">Running</label>
+                <input type="checkbox" name="sports" id="running"/><br />
+                <label for="swimming">Swimming</label>
+                <input type="checkbox" name="sports" id="swimming"/><br />
+                <label for="rowing">Rowing</label>
+                <input type="checkbox" name="sports" id="rowing"/>
+                <p>What is your gender?</p>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male"><br />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female"><br /><br />
+                <label for="movie">Favorite movie:</label>
+                <input type="text" name="movie" id="movie"/><br /><br />
+                <label for="quote">Favorite quote: </label>
+                <input type="text" name="quote" id="quote" placeholder="Write your favorite quote"/><br /><br />
+                <label for="password">Password*:</label>
+                <input type="password" name="password" id="password" required/><br /><br />
+                <label for="food">Favorite food:</label>
+                <select id="food" name="food">
+                    <option value="hamburger" selected>Hamburger</option>
+                    <option value="burito">Burito</option>
+                    <option value="kebab">Kebab</option>
+                </select><br /><br />
+                <input type="button" name="bestandKiezen" id="bestandKiezen" value="Bestand kiezen"/>
+                <label>geen bestand gekozen</label><br /><br />
+                <label for="email">Email adress:</label>
+                <input type="text" name="email" id="email" placeholder="Enter you email addres"/><br /><br />
+                <label for="site">Favorite site:</label>
+                <input type="text" name="site" id="site" placeholder="Enter the URL of your favorite site"/><br /><br />
+                <label for="number1-10">Favorite number between 1-10:</label>
+                <input type="number" min="1" max="10" name="number1-10" id="number1-10"/><br /><br />
+                <label for="number11-1000">Favorite number between 11-1000:</label>
+                <input type="range" min="11" max="1000" name="number11-1000" id="number11-1000"/><br /><br />
+                <label for="birth">When were you born?</label>
+                <input type="date" name="birth" id="birth"/><br /><br />
+                <label for="zip-code">Belgium zip-code reg number*:</label>
+                <input type="text" name="zip-code" id="zip-code" placeholder="9999" maxlength="4"/><br /><br />
+                <label for="search">Search for something:</label>
+                <input type="text" name="search" id="search"/><br /><br />
+                <label for="color">What is your favorite color?</label>
+                <input type="color" name="color" id="color"/><br /><br />
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js">
+</script>
+</body>
+</html>
