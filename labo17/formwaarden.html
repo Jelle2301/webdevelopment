@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styleFormwaarden.css">
+    <title>Formwaarden</title>
+</head>
+<body>
+    <h1>Formwaarden</h1>
+    <label for="roker">Is roker: </label>
+    <input type="checkbox" id="roker" name="roker"><br>
+    <p>Moedertaal:</p>
+    <input type="radio" value="Nederlands" id="nederlands" name="moedertaal">
+    <label for="nederlands">Nederlands</label>
+    <input type="radio" value="Frans" name="moedertaal" id="frans">
+    <label for="frans">Frans</label>
+    <input type="radio" value="Engels" name="moedertaal" id="engels">
+    <label for="engels">Engels</label><br><br>
+    <label for="buurland">Favoriet buurland</label>
+    <select id="buurland">
+        <option value="nederland">Nederland</option>
+        <option value="frankrijk">Frankrijk</option>
+        <option value="duitsland">Duitsland</option>
+    </select><br><br>
+    <label for="bestelling">Bestelling</label>
+    <select id="bestelling" multiple>
+        <option value="aardappelen" id="aardappelen">aardappelen</option>
+        <option value="brood" id="brood">brood</option>
+        <option value="melk" id="melk">melk</option>
+        <option value="biefstuk" id="biefstuk">biefstuk</option>
+        <option value="chips" id="chips">chips</option>
+        <option value="krant" id="krant">krant</option>
+    </select><br><br>
+    <button id="resultaat">Toon resultaat</button>
+<script src="scripts/codeFormwaarden.js">
+</script>
+</body>
+</html>
