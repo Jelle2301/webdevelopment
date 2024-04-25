@@ -15,8 +15,7 @@ const applyColorBlock = (event) => {
     let colorPalet = document.getElementById("colorPalet");
     let spans = document.getElementsByTagName("span");
 
-    let rgb = event.currentTarget.getAttribute("style").slice(21).trim().replace("(","").replace(")","").replace(";","").split(",");
-
+    let rgb = event.currentTarget.style.backgroundColor.match(/\d+/g);
     let red = rgb[0].trim();
     let green = rgb[1].trim();
     let blue = rgb[2].trim();
@@ -78,7 +77,7 @@ const saveToLocalStorage = () => {
     let blocksSavedColor = [];
     let blocksSaved = document.querySelectorAll(".square");
     blocksSaved.forEach(block => {
-        let rgb = block.getAttribute("style").slice(21).trim().replace("(","").replace(")","").replace(";","").split(",");
+        let rgb = block.style.backgroundColor.match(/\d+/g);
         let saveBlock = {
             red: rgb[0],
             green: rgb[1],
@@ -101,12 +100,13 @@ const initialize = () => {
 
     let sliders = document.querySelectorAll(".slider");
     let span = document.querySelectorAll("span");
-    let colorPalet = document.getElementById("colorPalet");
+    let colorPalet = document.querySelector("#colorPalet");
 
     let lastColor = localStorage.getItem("lastColor");
     if(lastColor){
         colorPalet.style.background = JSON.parse(lastColor);
-        let rgb = colorPalet.getAttribute("style").slice(21).trim().replace("(","").replace(")","").replace(";","").split(",");
+        let rgb = colorPalet.style.backgroundColor.match(/\d+/g);
+        console.log(rgb);
         for(let i = 0; i < sliders.length; i++){
             span[i].textContent = `${rgb[i]}`;
             sliders[i].value = rgb[i];
