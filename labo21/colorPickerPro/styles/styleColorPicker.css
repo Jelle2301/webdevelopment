@@ -1,7 +1,7 @@
 .colorPicker{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     justify-content: space-evenly;
     text-indent: 5px;
     border: 5px solid grey;
@@ -9,12 +9,18 @@
     height: 150px;
     width: 400px;
 }
-.colorContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+#colorPalet {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 0 0 1em;
+    height: 4em;
+    width: 5em;
 }
-.colorContainer .square{
+#colorContainer{
+    display: flex;
+    flex-direction: row;
+}
+#colorContainer .square{
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;

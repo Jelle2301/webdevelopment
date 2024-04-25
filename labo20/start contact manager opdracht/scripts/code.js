@@ -72,7 +72,7 @@ const bewerkNieuwePersoon = () => {
     for(let i = 0; i < lstPersonen.length; i++){
         lstPersonen[i].selected = false;
     }
-    };
+};
 const klikOptie = (event) => {
     let persoon = event.target.selectedIndex;
     document.getElementById("txtVoornaam").value = personen[persoon].voornaam;
