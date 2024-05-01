@@ -1,0 +1,49 @@
+#search {
+    background-color: forestgreen;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+#commando {
+    width: 100%;
+}
+.youtube {
+    background-color: #FF0000;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.google {
+    background-color: #FBBC05;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.instagram {
+    background-color: #C32AA3;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.twitter {
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.cardBody {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 20px;
+}
+.cardBody h1 {
+    font-size: 25px;
+}
+.cardBody .btnGo {
+    margin-right: 5px;
+}
+.btnGo, .btnDelete{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+}

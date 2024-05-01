@@ -69,7 +69,6 @@ const restore = (red,green,blue) => {
     btnDelete.setAttribute("value","x");
     btnDelete.addEventListener("click", deleteBlock);
 
-    console.log(colorContainer);
     colorBlock.appendChild(btnDelete);
     colorContainer.appendChild(colorBlock);
 }
